@@ -57,7 +57,7 @@ components:
     type: Link
     layout_properties: {grid_position: 'NEUEWW,MKPXQJ'}
   - name: link_12
-    properties: {}
+    properties: {text: View / Edit Profile}
     type: Link
     layout_properties: {grid_position: 'XLHGFK,DDJCTA'}
   - name: link_11
