@@ -1,7 +1,7 @@
-from ._anvil_designer import opbalTemplate
+from ._anvil_designer import rtaTemplate
 from anvil import *
 
-class opbal(opbalTemplate):
+class rta(rtaTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

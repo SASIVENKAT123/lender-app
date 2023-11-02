@@ -1,7 +1,7 @@
-from ._anvil_designer import opbalTemplate
+from ._anvil_designer import vdpTemplate
 from anvil import *
 
-class opbal(opbalTemplate):
+class vdp(vdpTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

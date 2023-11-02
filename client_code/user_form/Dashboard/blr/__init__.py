@@ -1,7 +1,7 @@
-from ._anvil_designer import opbalTemplate
+from ._anvil_designer import blrTemplate
 from anvil import *
 
-class opbal(opbalTemplate):
+class blr(blrTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

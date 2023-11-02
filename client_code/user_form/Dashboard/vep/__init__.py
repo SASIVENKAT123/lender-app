@@ -1,7 +1,7 @@
-from ._anvil_designer import opbalTemplate
+from ._anvil_designer import vepTemplate
 from anvil import *
 
-class opbal(opbalTemplate):
+class vep(vepTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
